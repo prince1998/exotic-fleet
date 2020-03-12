@@ -14,9 +14,9 @@ if($result){
 	$user = $stmtselect->fetch(PDO::FETCH_ASSOC);
 	if($stmtselect->rowCount() > 0){
 		$_SESSION['userlogin'] = $user;
-		echo '1';
+		echo 'User Logged in Successfully';
 	}else{
-		echo 'There no user for that combo';
+		echo 'Please enter correct User ID and Password';
 	}
 }else{
 	echo 'There were errors while connecting to database.';
