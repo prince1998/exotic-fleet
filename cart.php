@@ -113,7 +113,7 @@ if (isset($_POST['remove'])){
                             production: 'demo_production_client_id'
                             },
                             // Customize button (optional)
-                            locale: 'en_IN',
+                            locale: 'en_US',
                             style: {
                             size: 'small',
                             color: 'gold',

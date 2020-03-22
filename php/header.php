@@ -1,4 +1,4 @@
-
+<link rel="stylesheet" type="text/css" href="./css/header.css">
 <header id="header">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a href="index.php" class="navbar-brand">
@@ -22,7 +22,7 @@
             <div class="navbar-nav">
                 <h5 class="logout">
 
-                <a href="index.php?logout=true">Logout</a>
+                <a href="index.php?logout=true" class = "hyperlink">Logout</a>
             </h5>
                 <a href="cart.php" class="nav-item nav-link active">
                     <h5 class="px-5 cart">

@@ -11,16 +11,7 @@ function component($productname, $productprice, $productimg, $productid){
                         </div>
                         <div class=\"card-body\">
                             <h5 class=\"card-title\">$productname</h5>
-                            <h6>
-                                <i class=\"fas fa-star\"></i>
-                                <i class=\"fas fa-star\"></i>
-                                <i class=\"fas fa-star\"></i>
-                                <i class=\"fas fa-star\"></i>
-                                <i class=\"far fa-star\"></i>
-                            </h6>
-                            <p class=\"card-text\">
-                                Blah Blah
-                            </p>
+
                             <h5>
                                 <span class=\"price\">₹ $productprice</span>
                             </h5>
