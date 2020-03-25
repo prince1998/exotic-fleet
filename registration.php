@@ -78,7 +78,7 @@ require_once('config.php');
 <script type = "text/javascript">
 function validateRegistrationForm(){
 var password = document.register.password;
-var confir  m_password = document.register.confirm_password;
+var confirm_password = document.register.confirm_password;
 if (password.value.length<6)
 {
     alert("Please give a Password more than 5 characters");

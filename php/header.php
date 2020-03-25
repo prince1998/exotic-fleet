@@ -21,6 +21,10 @@
             <div class="mr-auto"></div>
             <div class="navbar-nav">
                 <h5 class="logout">
+                <a href = "../useraccounts -master/feedback.php" class = "hyperlink">Give Feedback</a>
+                </h5>
+
+                <h5 class="logout">
 
                 <a href="index.php?logout=true" class = "hyperlink">Logout</a>
             </h5>
@@ -30,7 +34,6 @@
                         <i class="fas fa-shopping-cart"></i> Cart
 
                         <?php
-
                         if (isset($_SESSION['cart'])){
                             $count = count($_SESSION['cart']);
                             echo "<span id=\"cart_count\" class=\"text-warning bg-light\">$count</span>";
